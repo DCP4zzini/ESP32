@@ -1,0 +1,9 @@
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.0.1/tools/cmake/build.cmake:519 (message):
+  ERROR: Cannot find versions of "espressif/daniel" with version satisfying
+  "*" for the current target "esp32"
+
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.0.1/tools/cmake/project.cmake:440 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+

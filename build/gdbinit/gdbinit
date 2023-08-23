@@ -1,0 +1,4 @@
+
+source C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build\gdbinit\py_extensions
+source C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build\gdbinit\symbols
+source C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build\gdbinit\connect

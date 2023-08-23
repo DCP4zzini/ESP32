@@ -1,0 +1,260 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Espressif/tools/ninja/1.10.2/ninja.exe cmTC_25e18 && [1/2] Building C object CMakeFiles/cmTC_25e18.dir/CMakeCCompilerABI.c.obj
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: C:\PROGRA~3\LLVMFO~1.202\bin
+ (in-process)
+ "C:\\PROGRA~3\\LLVMFO~1.202\\bin\\clang.exe" -cc1 -triple rl78 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -nostdsysteminc -target-cpu RL78_S3 -fno-jump-tables -mllvm -combiner-store-merging -Wvla -fno-aligned-allocation -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209" -dependency-file "CMakeFiles\\cmTC_25e18.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_25e18.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\include" -internal-isystem "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\include" -fdebug-compilation-dir "C:\\Espressif\\frameworks\\esp-idf-v5.0.1\\workspace\\freeRTOS_tests\\freeRTOS_test\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -mmirror-source-0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fno-common -finput-charset UTF-8 -fexec-charset UTF-8 -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_25e18.dir/CMakeCCompilerABI.c.obj -x c C:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version LLVM for Renesas RL78 10.0.0.202209 based upon LLVM 10.0.0 default target rl78
+ignoring duplicate directory "C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include
+ C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\..\..\..\rl78\include
+End of search list.
+[2/2] Linking C executable cmTC_25e18.exe
+FAILED: cmTC_25e18.exe 
+cmd.exe /C "cd . && C:\PROGRA~3\LLVMFO~1.202\bin\clang.exe  -v CMakeFiles/cmTC_25e18.dir/CMakeCCompilerABI.c.obj -o cmTC_25e18.exe -Wl,--out-implib,libcmTC_25e18.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: C:\PROGRA~3\LLVMFO~1.202\bin
+ "C:\\PROGRA~3\\LLVMFO~1.202\\bin\\ld.lld" CMakeFiles/cmTC_25e18.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_25e18.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic "-TC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\rl78.ld" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crt0.o" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtbegin-rl78.obj" -lnosys -lc -lm -lclang_rt.builtins-rl78 "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtend-rl78.obj" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crtn.o" "-LC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal" "-LC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3" -o cmTC_25e18.exe -no-threads
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_25e18.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Espressif/tools/ninja/1.10.2/ninja.exe cmTC_776e9 && [1/2] Building C object CMakeFiles/cmTC_776e9.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_776e9.exe
+FAILED: cmTC_776e9.exe 
+cmd.exe /C "cd . && C:\PROGRA~3\LLVMFO~1.202\bin\clang.exe   CMakeFiles/cmTC_776e9.dir/testCCompiler.c.obj -o cmTC_776e9.exe -Wl,--out-implib,libcmTC_776e9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_776e9.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: unable to find library -lkernel32
+ld.lld: error: unable to find library -luser32
+ld.lld: error: unable to find library -lgdi32
+ld.lld: error: unable to find library -lwinspool
+ld.lld: error: unable to find library -lshell32
+ld.lld: error: unable to find library -lole32
+ld.lld: error: unable to find library -loleaut32
+ld.lld: error: unable to find library -luuid
+ld.lld: error: unable to find library -lcomdlg32
+ld.lld: error: unable to find library -ladvapi32
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Espressif/tools/ninja/1.10.2/ninja.exe cmTC_47341 && [1/2] Building C object CMakeFiles/cmTC_47341.dir/CMakeCCompilerABI.c.obj
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: C:\PROGRA~3\LLVMFO~1.202\bin
+ (in-process)
+ "C:\\PROGRA~3\\LLVMFO~1.202\\bin\\clang.exe" -cc1 -triple rl78 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -nostdsysteminc -target-cpu RL78_S3 -fno-jump-tables -mllvm -combiner-store-merging -Wvla -fno-aligned-allocation -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209" -dependency-file "CMakeFiles\\cmTC_47341.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_47341.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\include" -internal-isystem "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\include" -fdebug-compilation-dir "C:\\Espressif\\frameworks\\esp-idf-v5.0.1\\workspace\\freeRTOS_tests\\freeRTOS_test\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -mmirror-source-0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fno-common -finput-charset UTF-8 -fexec-charset UTF-8 -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_47341.dir/CMakeCCompilerABI.c.obj -x c C:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version LLVM for Renesas RL78 10.0.0.202209 based upon LLVM 10.0.0 default target rl78
+ignoring duplicate directory "C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include
+ C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\..\..\..\rl78\include
+End of search list.
+[2/2] Linking C executable cmTC_47341.exe
+FAILED: cmTC_47341.exe 
+cmd.exe /C "cd . && C:\PROGRA~3\LLVMFO~1.202\bin\clang.exe  -v CMakeFiles/cmTC_47341.dir/CMakeCCompilerABI.c.obj -o cmTC_47341.exe -Wl,--out-implib,libcmTC_47341.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: C:\PROGRA~3\LLVMFO~1.202\bin
+ "C:\\PROGRA~3\\LLVMFO~1.202\\bin\\ld.lld" CMakeFiles/cmTC_47341.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_47341.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic "-TC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\rl78.ld" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crt0.o" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtbegin-rl78.obj" -lnosys -lc -lm -lclang_rt.builtins-rl78 "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtend-rl78.obj" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crtn.o" "-LC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal" "-LC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3" -o cmTC_47341.exe -no-threads
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_47341.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Espressif/tools/ninja/1.10.2/ninja.exe cmTC_71a84 && [1/2] Building C object CMakeFiles/cmTC_71a84.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_71a84.exe
+FAILED: cmTC_71a84.exe 
+cmd.exe /C "cd . && C:\PROGRA~3\LLVMFO~1.202\bin\clang.exe   CMakeFiles/cmTC_71a84.dir/testCCompiler.c.obj -o cmTC_71a84.exe -Wl,--out-implib,libcmTC_71a84.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_71a84.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: unable to find library -lkernel32
+ld.lld: error: unable to find library -luser32
+ld.lld: error: unable to find library -lgdi32
+ld.lld: error: unable to find library -lwinspool
+ld.lld: error: unable to find library -lshell32
+ld.lld: error: unable to find library -lole32
+ld.lld: error: unable to find library -loleaut32
+ld.lld: error: unable to find library -luuid
+ld.lld: error: unable to find library -lcomdlg32
+ld.lld: error: unable to find library -ladvapi32
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Espressif/tools/ninja/1.10.2/ninja.exe cmTC_15204 && [1/2] Building C object CMakeFiles/cmTC_15204.dir/CMakeCCompilerABI.c.obj
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: C:\PROGRA~3\LLVMFO~1.202\bin
+ (in-process)
+ "C:\\PROGRA~3\\LLVMFO~1.202\\bin\\clang.exe" -cc1 -triple rl78 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -nostdsysteminc -target-cpu RL78_S3 -fno-jump-tables -mllvm -combiner-store-merging -Wvla -fno-aligned-allocation -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209" -dependency-file "CMakeFiles\\cmTC_15204.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_15204.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\include" -internal-isystem "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\include" -fdebug-compilation-dir "C:\\Espressif\\frameworks\\esp-idf-v5.0.1\\workspace\\freeRTOS_tests\\freeRTOS_test\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -mmirror-source-0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fno-common -finput-charset UTF-8 -fexec-charset UTF-8 -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_15204.dir/CMakeCCompilerABI.c.obj -x c C:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version LLVM for Renesas RL78 10.0.0.202209 based upon LLVM 10.0.0 default target rl78
+ignoring duplicate directory "C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include
+ C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\..\..\..\rl78\include
+End of search list.
+[2/2] Linking C executable cmTC_15204.exe
+FAILED: cmTC_15204.exe 
+cmd.exe /C "cd . && C:\PROGRA~3\LLVMFO~1.202\bin\clang.exe  -v CMakeFiles/cmTC_15204.dir/CMakeCCompilerABI.c.obj -o cmTC_15204.exe -Wl,--out-implib,libcmTC_15204.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: C:\PROGRA~3\LLVMFO~1.202\bin
+ "C:\\PROGRA~3\\LLVMFO~1.202\\bin\\ld.lld" CMakeFiles/cmTC_15204.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_15204.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic "-TC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\rl78.ld" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crt0.o" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtbegin-rl78.obj" -lnosys -lc -lm -lclang_rt.builtins-rl78 "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtend-rl78.obj" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crtn.o" "-LC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal" "-LC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3" -o cmTC_15204.exe -no-threads
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_15204.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Espressif/tools/ninja/1.10.2/ninja.exe cmTC_5137d && [1/2] Building C object CMakeFiles/cmTC_5137d.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_5137d.exe
+FAILED: cmTC_5137d.exe 
+cmd.exe /C "cd . && C:\PROGRA~3\LLVMFO~1.202\bin\clang.exe   CMakeFiles/cmTC_5137d.dir/testCCompiler.c.obj -o cmTC_5137d.exe -Wl,--out-implib,libcmTC_5137d.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_5137d.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: unable to find library -lkernel32
+ld.lld: error: unable to find library -luser32
+ld.lld: error: unable to find library -lgdi32
+ld.lld: error: unable to find library -lwinspool
+ld.lld: error: unable to find library -lshell32
+ld.lld: error: unable to find library -lole32
+ld.lld: error: unable to find library -loleaut32
+ld.lld: error: unable to find library -luuid
+ld.lld: error: unable to find library -lcomdlg32
+ld.lld: error: unable to find library -ladvapi32
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Espressif/tools/ninja/1.10.2/ninja.exe cmTC_62a60 && [1/2] Building C object CMakeFiles/cmTC_62a60.dir/CMakeCCompilerABI.c.obj
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: C:\PROGRA~3\LLVMFO~1.202\bin
+ (in-process)
+ "C:\\PROGRA~3\\LLVMFO~1.202\\bin\\clang.exe" -cc1 -triple rl78 -emit-obj -mrelax-all -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model static -mthread-model posix -mframe-pointer=none -fmath-errno -fno-rounding-math -masm-verbose -mconstructor-aliases -nostdsysteminc -target-cpu RL78_S3 -fno-jump-tables -mllvm -combiner-store-merging -Wvla -fno-aligned-allocation -dwarf-column-info -fno-split-dwarf-inlining -debugger-tuning=gdb -v -resource-dir "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209" -dependency-file "CMakeFiles\\cmTC_62a60.dir\\CMakeCCompilerABI.c.obj.d" -MT CMakeFiles/cmTC_62a60.dir/CMakeCCompilerABI.c.obj -sys-header-deps -internal-isystem "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\include" -internal-isystem "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\include" -fdebug-compilation-dir "C:\\Espressif\\frameworks\\esp-idf-v5.0.1\\workspace\\freeRTOS_tests\\freeRTOS_test\\build\\CMakeFiles\\CMakeTmp" -ferror-limit 19 -fmessage-length 0 -mmirror-source-0 -fgnuc-version=4.2.1 -fobjc-runtime=gcc -fno-common -finput-charset UTF-8 -fexec-charset UTF-8 -fdiagnostics-show-option -faddrsig -o CMakeFiles/cmTC_62a60.dir/CMakeCCompilerABI.c.obj -x c C:/Espressif/tools/cmake/3.24.0/share/cmake-3.24/Modules/CMakeCCompilerABI.c
+clang -cc1 version LLVM for Renesas RL78 10.0.0.202209 based upon LLVM 10.0.0 default target rl78
+ignoring duplicate directory "C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include"
+#include "..." search starts here:
+#include <...> search starts here:
+ C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\include
+ C:\PROGRA~3\LLVMFO~1.202\lib\clang\LLVM for Renesas RL78 10.0.0.202209\..\..\..\rl78\include
+End of search list.
+[2/2] Linking C executable cmTC_62a60.exe
+FAILED: cmTC_62a60.exe 
+cmd.exe /C "cd . && C:\PROGRA~3\LLVMFO~1.202\bin\clang.exe  -v CMakeFiles/cmTC_62a60.dir/CMakeCCompilerABI.c.obj -o cmTC_62a60.exe -Wl,--out-implib,libcmTC_62a60.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+clang version LLVM for Renesas RL78 10.0.0.202209 
+Target: rl78
+Thread model: posix
+InstalledDir: C:\PROGRA~3\LLVMFO~1.202\bin
+ "C:\\PROGRA~3\\LLVMFO~1.202\\bin\\ld.lld" CMakeFiles/cmTC_62a60.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_62a60.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic "-TC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\rl78.ld" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crt0.o" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtbegin-rl78.obj" -lnosys -lc -lm -lclang_rt.builtins-rl78 "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal\\clang_rt.crtend-rl78.obj" "C:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3\\crtn.o" "-LC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\rl78\\s3\\lib\\baremetal" "-LC:\\PROGRA~3\\LLVMFO~1.202\\lib\\clang\\LLVM for Renesas RL78 10.0.0.202209\\..\\..\\..\\rl78\\lib\\s3" -o cmTC_62a60.exe -no-threads
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_62a60.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Espressif/tools/ninja/1.10.2/ninja.exe cmTC_be6a9 && [1/2] Building C object CMakeFiles/cmTC_be6a9.dir/testCCompiler.c.obj
+[2/2] Linking C executable cmTC_be6a9.exe
+FAILED: cmTC_be6a9.exe 
+cmd.exe /C "cd . && C:\PROGRA~3\LLVMFO~1.202\bin\clang.exe   CMakeFiles/cmTC_be6a9.dir/testCCompiler.c.obj -o cmTC_be6a9.exe -Wl,--out-implib,libcmTC_be6a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+ld.lld: error: unknown argument '--out-implib'
+ld.lld: error: unknown argument '--major-image-version'
+ld.lld: error: unknown argument '--minor-image-version'
+ld.lld: error: cannot open libcmTC_be6a9.dll.a: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: cannot open 0: no such file or directory
+ld.lld: error: unable to find library -lkernel32
+ld.lld: error: unable to find library -luser32
+ld.lld: error: unable to find library -lgdi32
+ld.lld: error: unable to find library -lwinspool
+ld.lld: error: unable to find library -lshell32
+ld.lld: error: unable to find library -lole32
+ld.lld: error: unable to find library -loleaut32
+ld.lld: error: unable to find library -luuid
+ld.lld: error: unable to find library -lcomdlg32
+ld.lld: error: unable to find library -ladvapi32
+clang: error: ld.lld command failed with exit code 1 (use -v to see invocation)
+ninja: build stopped: subcommand failed.
+
+
+

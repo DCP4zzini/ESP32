@@ -1,0 +1,54 @@
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/ProgramData/LLVM for Renesas RL78 10.0.0.202209/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/main/build/CMakeFiles/3.24.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/ProgramData/LLVM for Renesas RL78 10.0.0.202209/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/main/build/CMakeFiles/3.24.0/CompilerIdCXX/a.out"
+
+The system is: Windows - 10.0.22621 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/ProgramData/LLVM for Renesas RL78 10.0.0.202209/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/main/build/CMakeFiles/3.24.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/ProgramData/LLVM for Renesas RL78 10.0.0.202209/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/main/build/CMakeFiles/3.24.0/CompilerIdCXX/a.out"
+

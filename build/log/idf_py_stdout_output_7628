@@ -1,0 +1,5 @@
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+Solving dependencies requirements
+-- Configuring incomplete, errors occurred!
+See also "C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeOutput.log".

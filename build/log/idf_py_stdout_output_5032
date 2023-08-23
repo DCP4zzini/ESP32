@@ -1,0 +1,19 @@
+[0/1] Re-running CMake...
+-- ccache will be used for faster recompilation
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/sdkconfig
+-- App "freeRTOS_test" version: afb2453-dirty
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.0.1/components/soc/esp32/ld/esp32.peripherals.ld
+-- Configuring incomplete, errors occurred!
+See also "C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeOutput.log".
+See also "C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/build/CMakeFiles/CMakeError.log".
+FAILED: build.ninja 
+C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe --regenerate-during-build -SC:\Espressif\frameworks\esp-idf-v5.0.1\workspace\freeRTOS_tests\freeRTOS_test -BC:\Espressif\frameworks\esp-idf-v5.0.1\workspace\freeRTOS_tests\freeRTOS_test\build

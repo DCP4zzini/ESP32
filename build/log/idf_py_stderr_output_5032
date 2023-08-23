@@ -1,0 +1,10 @@
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.0.1/tools/cmake/component.cmake:312 (message):
+  Include directory
+  'C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/components/red_led_task/COMPONENT_DIRS'
+  is not a directory.
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.0.1/tools/cmake/component.cmake:486 (__component_add_include_dirs)
+  components/red_led_task/CMakeLists.txt:1 (idf_component_register)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

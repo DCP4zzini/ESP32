@@ -1,0 +1,16 @@
+CMake Warning (dev) at main/CMakeLists.txt:3:
+  Syntax Warning in cmake code at column 61
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.0.1/tools/cmake/component.cmake:312 (message):
+  Include directory
+  'C:/Espressif/frameworks/esp-idf-v5.0.1/workspace/freeRTOS_tests/freeRTOS_test/main/COMPONENT_DIRS'
+  is not a directory.
+Call Stack (most recent call first):
+  C:/Espressif/frameworks/esp-idf-v5.0.1/tools/cmake/component.cmake:486 (__component_add_include_dirs)
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

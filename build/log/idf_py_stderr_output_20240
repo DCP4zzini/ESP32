@@ -1,0 +1,6 @@
+CMake Error at C:/Espressif/frameworks/esp-idf-v5.0.1/tools/cmake/component.cmake:438 (message):
+  Called idf_component_register from a non-component directory.
+Call Stack (most recent call first):
+  CMakeLists.txt:9 (idf_component_register)
+
+
